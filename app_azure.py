@@ -34,26 +34,26 @@ df_yearly_perakende = read_blob_file('Yearly_Sales_DFU_Perakende.csv')
 df_yearly_kurumsal = read_blob_file('Yearly_Sales_DFU_Kurumsal.csv')
 df_yearly_yurtdisi = read_blob_file('Yearly_Sales_DFU_Yurtdisi.csv')
 
-df_time = read_blob_file('Zaman_Serisi_Sonuçları_Perakende.csv')
-df_ml1 = read_blob_file('ML_Satıştan_Tahmin_1m_Perakende.csv')
-df_ml2 = read_blob_file('ML_Satış+DışVeri_Tahmin_1m_Perakende.csv')
+df_time = read_blob_file('Zaman_Serisi_Sonucları_Perakende.csv')
+df_ml1 = read_blob_file('ML_Satıstan_Tahmin_1m_Perakende.csv')
+df_ml2 = read_blob_file('ML_Satıs+DısVeri_Tahmin_1m_Perakende.csv')
 
-df_ml1_3 = read_blob_file('ML_Satıştan_Tahmin_3m_Perakende.csv')
-df_ml2_3 = read_blob_file('ML_Satış+DışVeri_Tahmin_3m_Perakende.csv')
+df_ml1_3 = read_blob_file('ML_Satıstan_Tahmin_3m_Perakende.csv')
+df_ml2_3 = read_blob_file('ML_Satıs+DısVeri_Tahmin_3m_Perakende.csv')
 
-df_time_kurumsal = read_blob_file('Zaman_Serisi_Sonuçları_Kurumsal.csv')
-df_ml1_kurumsal = read_blob_file('ML_Satıştan_Tahmin_1m_Kurumsal.csv')
-df_ml2_kurumsal = read_blob_file('ML_Satış+DışVeri_Tahmin_1m_Kurumsal.csv')
+df_time_kurumsal = read_blob_file('Zaman_Serisi_Sonucları_Kurumsal.csv')
+df_ml1_kurumsal = read_blob_file('ML_Satıstan_Tahmin_1m_Kurumsal.csv')
+df_ml2_kurumsal = read_blob_file('ML_Satıs+DısVeri_Tahmin_1m_Kurumsal.csv')
 
-df_ml1_3_kurumsal = read_blob_file('ML_Satıştan_Tahmin_3m_Kurumsal.csv')
-df_ml2_3_kurumsal = read_blob_file('ML_Satış+DışVeri_Tahmin_3m_Kurumsal.csv')
+df_ml1_3_kurumsal = read_blob_file('ML_Satıstan_Tahmin_3m_Kurumsal.csv')
+df_ml2_3_kurumsal = read_blob_file('ML_Satıs+DısVeri_Tahmin_3m_Kurumsal.csv')
 
-df_time_yurtdisi = read_blob_file('Zaman_Serisi_Sonuçları_Yurtdışı.csv')
-df_ml1_yurtdisi = read_blob_file('ML_Satıştan_Tahmin_1m_Yurtdışı.csv')
-df_ml2_yurtdisi = read_blob_file('ML_Satış+DışVeri_Tahmin_1m_Yurtdışı.csv')
+df_time_yurtdisi = read_blob_file('Zaman_Serisi_Sonucları_Yurtdısı.csv')
+df_ml1_yurtdisi = read_blob_file('ML_Satıstan_Tahmin_1m_Yurtdısı.csv')
+df_ml2_yurtdisi = read_blob_file('ML_Satıs+DısVeri_Tahmin_1m_Yurtdısı.csv')
 
-df_ml1_3_yurtdisi = read_blob_file('ML_Satıştan_Tahmin_3m_Yurtdışı.csv')
-df_ml2_3_yurtdisi = read_blob_file('ML_Satış+DışVeri_Tahmin_3m_Yurtdışı.csv')
+df_ml1_3_yurtdisi = read_blob_file('ML_Satıstan_Tahmin_3m_Yurtdısı.csv')
+df_ml2_3_yurtdisi = read_blob_file('ML_Satıs+DısVeri_Tahmin_3m_Yurtdısı.csv')
 
 
 funk_unique = df_yearly_perakende['FONKSİYON'].value_counts().index.tolist()
